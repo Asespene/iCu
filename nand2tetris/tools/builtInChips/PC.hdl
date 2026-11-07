@@ -1,0 +1,16 @@
+// This file is part of the materials accompanying the book
+// "The Elements of Computing Systems" by Nisan and Schocken,
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: tools/builtIn/PC.hdl
+
+/**
+ * Program counter.
+ */
+
+CHIP PC {
+    IN in[16], load, inc, reset;
+    OUT out[16];
+
+    BUILTIN PC;
+    CLOCKED in, load, inc, reset;
+}

@@ -1,0 +1,20 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/Not.hdl
+
+/**
+ * Not gate:
+ * out = not in
+ */
+
+CHIP Not {
+    IN in;
+    OUT out;
+
+    PARTS:
+    // Put your code here:
+    // if in is 0 then a and b is 0 meaning that out should be 1
+    // This means a Not Gate is essentially just a Nand gate where both inputs are the same since it will equal to the opposite, hence the Not gate main concept.
+    Nand(a=in, b=in, out=out);
+}

@@ -1,0 +1,16 @@
+// This file is part of the materials accompanying the book
+// "The Elements of Computing Systems" by Nisan and Schocken,
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: tools/builtIn/Register.hdl
+
+/**
+ * 16-bit register.
+ */
+
+CHIP Register {
+    IN in[16], load;
+    OUT out[16];
+
+    BUILTIN Register;
+    CLOCKED in, load;
+}

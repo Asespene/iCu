@@ -1,0 +1,16 @@
+// This file is part of the materials accompanying the book
+// "The Elements of Computing Systems" by Nisan and Schocken,
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: tools/builtIn/RAM16K.hdl
+
+/**
+ * 16-bit / 16K RAM.
+ */
+
+CHIP RAM16K {
+    IN in[16], load, address[14];
+    OUT out[16];
+
+    BUILTIN RAM16K;
+    CLOCKED in, load;
+}

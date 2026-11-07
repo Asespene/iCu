@@ -1,0 +1,17 @@
+# Compiled binaries and object files
+*.o
+*.out
+a.out
+
+# Executables without extensions in subfolders (e.g., dweight, math, law)
+02ch-C-fundamentals/examples/dweight
+02ch-C-fundamentals/examples/dweight_v2
+02ch-C-fundamentals/examples/math
+02ch-C-fundamentals/examples/law
+02ch-C-fundamentals/examples/example
+02ch-C-fundamentals/examples/pun
+
+# Editor / OS metadata
+.DS_Store
+*.swp
+*.swo
